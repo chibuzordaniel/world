@@ -64,4 +64,40 @@
 
 // console.log(today)
 
-()
+
+// // for loops
+// for(let i = 0; i <8; i++){
+//     console.log(`Number: ${i}`);
+// }
+
+
+// const shoppingCart = ['product 1',  'product 2', 'product 3',  'product 4'];
+
+// console.log();
+
+// for(let i = 0; i <shoppingCart.length; i++) {
+//   console.log(`product: ${shoppingCart[i]}`);
+// }
+
+// while loops
+
+
+// let i = 0;
+
+// while(i <10){
+//     console.log(`Number: ${i}`);
+//     i++;
+// }
+ 
+// Map
+const shoppingCart = [
+    {id: 1, product: 'Book'}, 
+    {id: 1, product: 'shirt'}, 
+    {id: 1, product: 'Album'}, 
+];
+
+const productName = shoppingCart.map(function(productName){
+    return productName.product;
+});
+
+console.log(productName);
