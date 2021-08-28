@@ -100,4 +100,4 @@ const productName = shoppingCart.map(function(productName){
     return productName.product;
 });
 
-console.log(productName);
+console.log(productName); 
